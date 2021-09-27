@@ -3,8 +3,7 @@ import Footer from "./Footer/Footer";
 import Head from 'next/head'
 
 
-const Layout = ({children,...pageProps}) => {
-    const {layout} = pageProps;
+const Layout = ({children,layout}) => {
     return ( 
         <>
         <Head>

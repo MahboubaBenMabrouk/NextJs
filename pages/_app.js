@@ -1,4 +1,4 @@
-import Layout from '../component/Layout'
+import Layout from '../components/Layout'
 import "../public/assets/css/bootstrap.min.css"
 import "../public/assets/css/owl.carousel.min.css"
 import "../public/assets/css/ticker-style.css"
