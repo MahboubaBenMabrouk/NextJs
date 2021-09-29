@@ -62,8 +62,7 @@ export default function Footer({ children }) {
                               id="newsletter-form-email"
                               placeholder="Email Address"
                               className="placeholder hide-on-focus"
-                              onfocus="this.placeholder = ''"
-                              onblur="this.placeholder = ' Email Address '"
+                             
                             />
                             <div className="form-icon">
                               <button

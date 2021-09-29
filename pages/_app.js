@@ -11,6 +11,7 @@ import "../public/assets/css/themify-icons.css"
 import "../public/assets/css/slick.css"
 import "../public/assets/css/nice-select.css"
 import "../public/assets/css/style.css"
+import "../public/assets/css/responsive.css"
 
 
 function MyApp({ Component, pageProps }) {

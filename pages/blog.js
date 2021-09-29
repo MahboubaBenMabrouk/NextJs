@@ -1,17 +1,5 @@
-import Layout from '../components/layout'
+import BlogPage from "../components/blog/index"
 
-
-export default function blog() {
-  return (
-    <>
-    </>
-  )
+export default function Blog({layout}) {
+  return <BlogPage />;
 }
-
-blog.getLayout = function getLayout(blog) {
-    return (
-      <Layout>
-        {blog}
-      </Layout>
-    )
-  }

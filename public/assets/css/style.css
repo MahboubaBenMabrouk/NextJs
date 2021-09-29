@@ -1,5 +1,6 @@
-@import url("https://fonts.googleapis.com/css?family=Inconsolata:700");
 @import url("https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Inconsolata:700");
+
 .color1 {
     background: #ffe7e6;
 }
@@ -3257,6 +3258,7 @@ hr {
 .blog_area a :hover {
     background: -webkit-linear-gradient(131deg, #fc3f00 0%, #fc3f00 99%);
     -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
     text-decoration: none;
     transition: 0.4s;
 }
