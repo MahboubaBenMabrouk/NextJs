@@ -1,17 +1,5 @@
-import Layout from '../component/layout'
+import CategoriePage from "../components/categorie"
 
-
-export default function categorie() {
-  return (
-    <>
-    </>
-  )
+export default function Categorie({layout}) {
+  return <CategoriePage />;
 }
-
-categorie.getLayout = function getLayout(categorie) {
-    return (
-      <Layout>
-        {categorie}
-      </Layout>
-    )
-  }

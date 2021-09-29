@@ -1,17 +1,6 @@
-import Layout from '../component/layout'
+import ContactPage from '../components/contact'
 
 
-export default function contact() {
-  return (
-    <>
-    </>
-  )
+export default function Contact({layout}) {
+  return <ContactPage />;
 }
-
-contact.getLayout = function getLayout(contact) {
-    return (
-      <Layout>
-        {contact}
-      </Layout>
-    )
-  }

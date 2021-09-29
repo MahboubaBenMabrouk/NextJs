@@ -13,7 +13,6 @@ const HomePage = () => {
         <WeeklyNews/>
         <WhatsNew/>
         <WeeklyNews2/>
-        <Youtube/>
         <RecentArticles/>
         <Pagination/>
     </div>

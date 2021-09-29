@@ -53,7 +53,7 @@ export default function Header({ children }) {
                 {/* Logo */}
                 <div className="col-xl-3 col-lg-3 col-md-3">
                   <div className="logo">
-                    <a href="index.html">
+                    <a href="/">
                       <img src="assets/img/logo/logo.png" alt />
                     </a>
                   </div>
@@ -72,7 +72,7 @@ export default function Header({ children }) {
                 <div className="col-xl-10 col-lg-10 col-md-12 header-flex">
                   {/* sticky */}
                   <div className="sticky-logo">
-                    <a href="index.html">
+                    <a href="/">
                       <img src="assets/img/logo/logo.png" alt />
                     </a>
                   </div>
@@ -81,19 +81,19 @@ export default function Header({ children }) {
                     <nav>
                       <ul id="navigation">
                         <li>
-                          <a href="index.html">Home</a>
+                          <a href="/">Home</a>
                         </li>
                         <li>
-                          <a href="categori.html">Category</a>
+                          <a href="categorie">Category</a>
                         </li>
                         <li>
-                          <a href="about.html">About</a>
+                          <a href="about">About</a>
                         </li>
                         <li>
-                          <a href="latest_news.html">Latest News</a>
+                          <a href="latest_news">Latest News</a>
                         </li>
                         <li>
-                          <a href="contact.html">Contact</a>
+                          <a href="contact">Contact</a>
                         </li>
                         <li>
                           <a href="#">Pages</a>
@@ -102,7 +102,7 @@ export default function Header({ children }) {
                               <a href="elements.html">Element</a>
                             </li>
                             <li>
-                              <a href="blog.html">Blog</a>
+                              <a href="blog">Blog</a>
                             </li>
                             <li>
                               <a href="single-blog.html">Blog Details</a>
