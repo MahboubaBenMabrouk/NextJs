@@ -7,9 +7,9 @@ query GET_MENUS {
     edges {
       node {
         id
-      label
-      url
-      path
+        label
+        url
+        path
       
       }
     }
