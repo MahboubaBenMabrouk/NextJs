@@ -3,7 +3,9 @@ import Footer from "./Footer/Footer";
 import Head from 'next/head'
 
 
-const Layout = ({children,layout}) => {
+const Layout = ({children,...pageProps}) => {
+    const {layout} = pageProps;
+    
     return ( 
         <>
         <Head>
@@ -51,7 +53,8 @@ const Layout = ({children,layout}) => {
                 <script src="./assets/js/main.js"></script>
         </Head>
             
-              <Header/>
+              <Header  menu={layout?.menus?.headerMenus}/>
+             
               <main>
                  {children}
               </main>

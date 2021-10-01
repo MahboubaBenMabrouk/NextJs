@@ -1,4 +1,4 @@
-import data from "./static-data.json";
+import data from "../static-data.json";
 import Blog_details from "./blog_details";
 export default function article() {
     return (

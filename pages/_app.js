@@ -12,13 +12,18 @@ import "../public/assets/css/slick.css"
 import "../public/assets/css/nice-select.css"
 import "../public/assets/css/style.css"
 import "../public/assets/css/responsive.css"
+import { ApolloProvider } from '@apollo/client'
+import client from '../apollo/client'
 
 
 function MyApp({ Component, pageProps }) {
   return (
+    <ApolloProvider client={client}>
           <Layout {...pageProps}>
             <Component {...pageProps} />
           </Layout>
+    </ApolloProvider>
+
       )
 }
 

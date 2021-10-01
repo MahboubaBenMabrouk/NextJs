@@ -1,6 +1,6 @@
 
-export default function Header({ children }) {
-    
+import Menu from './Menu'
+export default function Header({ menu }) {
   return (
      <>
       <header>
@@ -77,44 +77,7 @@ export default function Header({ children }) {
                     </a>
                   </div>
                   {/* Main-menu */}
-                  <div className="main-menu d-none d-md-block">
-                    <nav>
-                      <ul id="navigation">
-                        <li>
-                          <a href="/">Home</a>
-                        </li>
-                        <li>
-                          <a href="categorie">Category</a>
-                        </li>
-                        <li>
-                          <a href="about">About</a>
-                        </li>
-                        <li>
-                          <a href="latest_news">Latest News</a>
-                        </li>
-                        <li>
-                          <a href="contact">Contact</a>
-                        </li>
-                        <li>
-                          <a href="#">Pages</a>
-                          <ul className="submenu">
-                            <li>
-                              <a href="elements.html">Element</a>
-                            </li>
-                            <li>
-                              <a href="blog">Blog</a>
-                            </li>
-                            <li>
-                              <a href="single-blog.html">Blog Details</a>
-                            </li>
-                            <li>
-                              <a href="details.html">Categori Details</a>
-                            </li>
-                          </ul>
-                        </li>
-                      </ul>
-                    </nav>
-                  </div>
+                <Menu menu= {menu}/>
                 </div>
                 <div className="col-xl-2 col-lg-2 col-md-4">
                   <div className="header-right-btn f-right d-none d-lg-block">
